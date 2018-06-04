@@ -3,6 +3,7 @@
 html {
   line-height: 1.4;
 }
+@@import "https://fonts.googleapis.com/css?family=Merriweather"
 
 body{
    font-family: 'Merriweather Sans', 'Times New Roman', serif,;font-size: 16px;
@@ -172,6 +173,8 @@ button:hover {
   text-align: center;
   max-width: 63%;
   height: auto;
+  color: #696969;
+  font-size: 1.5rem;
 }
 
 .practice:hover {
@@ -187,21 +190,38 @@ button:hover {
 }
 
 .info {
-  max-width: 100%;
   display: flex;
-  flex-flow: wrap column;
-  justify-content: space-between;
+  flex-flow: wrap row;
+  justify-content: center;
+  max-width: 40%;
   min-height: 168px;
+  padding-top: .5rem;
 }
 
-.campus_text {
-  display: flex;
-  flex-flow: wrap column;
-  justify-content: center;
+.info:hover {
+  background-color: #DCDCDC;
+  border: 1px solid black;
+}
+
+.info img {
+  display:inline-block;
+  justify-content: flex-start;
+
+  height: auto;
+  margin: 8px;
+}
+
+.info .campus_text {
+  display: inline-block;
+  justify-content: flex-end;
+  margin-left: 8px;
   margin-right: 8px;
+  color: #696969;
 }
 
-.orientation {
+
+
+/*.orientation {
   display: flex;
   flex-flow: wrap column;
   justify-content: center;
@@ -212,18 +232,21 @@ button:hover {
   text-align: center;
 }
 
-.orientation:hover {
+#orientation:hover {
   background-color: #DCDCDC;
   border: 1px solid black;
 }
 
-.orientation img {
-  display: inline-block;
-  flex-direction: column;
+/*.orientation img {
+  display: block;
   justify-content: center;
+  height: 33%;
+  padding: 1rem 1rem;
+  max-width: 100%;
+  height: auto;
 }
 
-.our_campus {
+.our_campus img {
   display: inline-block;
   height: 33%;
   padding: 1rem 1rem;
@@ -232,12 +255,12 @@ button:hover {
   text-align: center;
 }
 
-.our_campus:hover {
+#our_campus:hover {
   background-color: #DCDCDC;
   border: 1px solid black;
 }
 
-.guest {
+/*.guest img {
   display: inline-block;
   height: 33%;
   padding: 1rem 1rem;
@@ -246,10 +269,12 @@ button:hover {
   text-align: center;
 }
 
-.guest:hover {
+#guest:hover {
   background-color: #DCDCDC;
   border: 1px solid black;
-}
+}*/
+
+
 
 
 
