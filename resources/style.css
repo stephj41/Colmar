@@ -1,27 +1,44 @@
+/*universal style sheet*/
+
 html {
   line-height: 1.4;
 }
+
 body{
    font-family: 'Merriweather Sans', 'Times New Roman', serif,;font-size: 16px;
-   background-color: #FAF0E6;
+   background-color: #FFF5EE;
+   font-size: 18px;
 }
 
 ul li {
 list-style-type: none;
 }
 
-a {
-  text-decoration: none;
-  color: #2F4F4F
+a:link {
+  text-decoration: underline;;
+  color: #696969;
+  font-weight: bold;
 }
 
+a:visited {
+  text-decoration: none;
+  color: #A9A9A9;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #696969;
+}
+
+/*main header and navigagtion section*/
+
 header {
-  position: fixed;
-  margin-top: 0;
-  margin-left: 0;
   width: 100%;
-  height: 3.5rem;
+  height: 64px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
   background-color: #DCDCDC;
   z-index: 1;
   padding: 1rem 1.5rem;
@@ -42,7 +59,7 @@ header {
 }
 
 .logo #fancy {
-  color: #2F4F4F;
+  color: #484848;
   font-weight: 50;
 }
 
@@ -58,14 +75,221 @@ header {
 
 header nav {
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   padding: 1rem 1rem;
+  margin-right: 24px;
 }
 
 nav li {
   display: inline-block;
-  padding: 1rem 1.5rem 1rem 1.5rem;
+  padding: 1rem 1rem 1rem;
   font-size: 1.25rem;
-  margin-right: 15px;
   }
+
+/*main banner and start section*/
+
+.Container {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+}
+
+.banner_container {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  color: #696969;
+  background: #C0C0C0;
+}
+
+.learn img {
+  margin-top: 32px;
+  height: 100%;
+  padding: 2rem 1.5rem;
+  max-width: 95%;
+  height: auto;
+}
+
+.start {
+  display: block;
+  width: 40%;
+  height: auto;
+  padding: 2rem, 1.5rem;
+  margin-right: 100px;
+  justify-content: center;
+  text-align: center;
+  }
+
+.start h1{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.start h2 {
+  font-weight: 500;
+  text-align: center;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #696969;
+  color: white;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 6px;
+  transition: all 200ms ease-in 200ms;
+}
+
+button:hover {
+  background-color: #FFFFF0;
+  color: #696969;
+}
+
+/* campus information section */
+
+.info_container {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.practice {
+  display: inline-block;
+  justify-content: flex-start;
+  text-align: center;
+  max-width: 63%;
+  height: auto;
+}
+
+.practice:hover {
+  background-color: #DCDCDC;
+  border: 1px solid black;
+}
+
+.practice img {
+  padding-top: 1rem;
+  height: 100%;
+  max-width: 95%;
+  height: auto;
+}
+
+.info {
+  max-width: 100%;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-between;
+  min-height: 168px;
+}
+
+.campus_text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.orientation {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  height: 33%;
+  padding: 1rem 1rem;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.orientation:hover {
+  background-color: #DCDCDC;
+  border: 1px solid black;
+}
+
+.orientation img {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our_campus {
+  display: inline-block;
+  height: 33%;
+  padding: 1rem 1rem;
+  max-width: 95%;
+  height: auto;
+  text-align: center;
+}
+
+.our_campus:hover {
+  background-color: #DCDCDC;
+  border: 1px solid black;
+}
+
+.guest {
+  display: inline-block;
+  height: 33%;
+  padding: 1rem 1rem;
+  max-width: 95%;
+  height: auto;
+  text-align: center;
+}
+
+.guest:hover {
+  background-color: #DCDCDC;
+  border: 1px solid black;
+}
+
+
+
+
+/* Course Listings */
+
+
+
+/* Theseis Information */
+
+
+
+
+
+
+
+
+footer  {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: #DCDCDC;
+  z-index: 1;
+  padding: 1rem 1.5rem;
+  color: #696969;
+}
+
+footer nav{
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-right: 24px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1rem 1rem 1rem;
+  font-size: 1.25rem;
+}

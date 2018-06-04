@@ -11,7 +11,7 @@
   <body>
     <!--header and top navigation-->
     <header>
-      <div class="logo">
+      <div class="logo" id="logo">
         <img src="./resources/images/ic-logo.svg" alt="School Logo">
         <h1><span id="fancy">COLMAR</span>ACADEMY</h1>
       </div>
@@ -24,15 +24,15 @@
         </ul>
       </nav>
     </header>
-    <div class="Conainer">
     <!--Banner and startbutton-->
+    <div class="container">
     <section class= "banner_container" role="banner">
       <div class="learn">
         <img src="./resources/images/banner.jpg" alt="students at a picknic table">
-        <h1>Learn something<br> new every day</h1>
-        <h2>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</h2>
       </div>
       <div class="start">
+        <h1>Learn something new every day</h1>
+        <h2>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</h2>
         <button type="button" name="button"><a href="./campus.html">Start Here</a></button>
       </div>
     </section>
@@ -44,23 +44,31 @@
         <p>"Curabitur vitae libero in ipsum porritor copnsequat. Aliquam et commodo lectus, nec consequat neque. Sed nom accumsan unna phasellus sed consequat ex. Etiam eget magus laoreet, efficitur dolor consequat, tristique ligua."</p>
         <p>Emanuel, Sr Strategist at Hiring.com</p>
       </div>
-      <div class="orientation">
-        <img src="./resources/images/information-orientation.jpg" alt="students on a path">
-        <h1>Orientation Date</h1>
-        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-        <a href="#">Read More</a>
-      </div>
-      <div class="our_campus">
-        <img src="./resources/images/information-campus.jpg" alt="students at a table">
-        <h1>Our Campus</h1>
-        <p>Find which campus is close by you</p>
-        <a href="#">Read More</a>
-      </div>
-      <div class="guest">
-        <img src="./resources/images/information-guest-lecture.jpg" alt="photo of Oliver Sack">
-        <h1>Our Guest Lecture</h1>
-        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-        <a href="#">Read More</a>
+      <div class="info">
+        <div class="orientation">
+          <img src="./resources/images/information-orientation.jpg" alt="students on a path">
+          <div class="campus_text">
+            <h1>Orientation Date</h1>
+            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <a href="./campus.html">Read More</a>
+          </div>
+        </div>
+        <div class="our_campus">
+          <img src="./resources/images/information-campus.jpg" alt="students at a table">
+          <div class="campus_text">
+            <h1>Our Campus</h1>
+            <p>Find which campus is close by you</p>
+            <a href="./campus.html">Read More</a>
+          </div>
+        </div>
+        <div class="guest">
+          <img src="./resources/images/information-guest-lecture.jpg" alt="photo of Oliver Sack">
+          <div class="campus_text">
+            <h1>Our Guest Lecture</h1>
+            <p>Join a keynote with Oliver Sack<br> about music in medical treatment</p>
+            <a href="./campus.html">Read More</a>
+          </div>
+        </div>
       </div>
     </section>
     <!--Course selection-->
@@ -122,14 +130,15 @@
         <p>Research and Study about New York</p>
       </div>
     </section>
+  </div>
     <!--footer-->
-    </div>
     <footer>
       <p>© 2016 Colmar Academy.  All rights reserved.
       <nav>
         <ul>
           <li><a href="./terms.html">Terms</a></li>
           <li><a href="./privacy.html">Privacy</a></li>
+          <li><a href="#logo">Back to Top</a></li>
         </ul>
       </nav>
     </footer>
