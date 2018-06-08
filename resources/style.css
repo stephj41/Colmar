@@ -1,16 +1,15 @@
 /*universal style sheet*/
+/* latin-ext */
 
 html {
   line-height: 1.4;
 }
 
-
-
-
 body {
-   font-family: 'Merriweather Sans', 'Times New Roman', serif,;font-size: 16px;
-   background-color: #FFF5EE;
-   font-size: 18px;
+  font-family: 'Merriweather', serif;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 16px;
+  background-color: #FFF5EE;
 }
 
 ul li {
@@ -18,7 +17,7 @@ list-style-type: none;
 }
 
 a:link {
-  text-decoration: underline;;
+  text-decoration: underline;
   color: #A9A9A9;
   font-weight: bold;
 }
@@ -154,7 +153,6 @@ button {
   transition: all 200ms ease-in 200ms;
 }
 
-
 button:hover {
   background-color: #FFF5EE;
   color: #696969;
@@ -168,7 +166,6 @@ button:hover {
   max-width: auto;
   height: auto;
 }
-
 
 .practice {
   display: inline-block;
@@ -291,27 +288,86 @@ button:hover {
 }
 
 .course h3 {
-  font-size: 1rem;
+  font-size: .95rem;
   line-height: .75;
 }
 
 .course p {
-  font-size: .95rem;
+  font-size: .85rem;
   line-height: 1rem;
 }
 
-
-
-
-
 /* Theseis Information */
 
+.thesis_container {
+  display: flex;
+  justify-content: space-around;;
+  flex-direction: row;
+  max-width: auto;
+  height: auto;
+}
+
+.title {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  color: #696969;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.video {
+  display: inline-block;
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: 1rem;
+  max-width: 63%;
+  height: auto;
+  color: #696969;
+  font-size: 1.5rem;
+}
+
+.video:hover {
+  background-color: #DCDCDC;
+  border: 1px solid black;
+}
 
 
+embed {
+  display: inline-block;
+  width: 95%;
+}
+
+.thesis_info {
+  display: inline-block;
+  justify-content: center;
+  max-width: 40%;
+  min-height: 168px;
+  padding-top: .5rem;
+}
+
+.thesis_info:hover {
+  background-color: #DCDCDC;
+  border: 1px solid black;
+}
+
+.thesis_info img {
+  display:inline-block;
+  justify-content: flex-start;
+  height: auto;
+  margin: 8px;
+}
+
+.thesis_info .thesis_text {
+  display: inline-block;
+  justify-content: flex-end;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #696969;
+}
 
 
-
-
+/*footer section */
 
 footer  {
   width: 100%;
