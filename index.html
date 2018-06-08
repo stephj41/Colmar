@@ -6,6 +6,7 @@
     <title>Colmar Academy</title>
     <link rel="stylesheet" style='text.css' href="./resources/reset.css">
     <link rel="stylesheet" style='text.css' href="./resources/style.css">
+    <link rel="stylesheet" style='text/css' href="./resources/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Source+Serif+Pro:400,700" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
@@ -13,11 +14,11 @@
   <body>
     <!--header and top navigation-->
     <header>
-      <div class="logo" id="logo">
+      <div class="logo" id="desktop">
         <img src="./resources/images/ic-logo.svg" alt="School Logo">
         <h1><span id="fancy">COLMAR</span>ACADEMY</h1>
       </div>
-      <nav>
+      <nav id="desktop">
         <ul>
           <li><a href="./campus.html" target="_blank">On Campus</a></li>
           <li><a href="./online.html" target="_blank">Online</a></li>
@@ -25,6 +26,16 @@
           <li><a href="./signin.html" target="_blank">Sign In</a></li>
         </ul>
       </nav>
+      <div class="mobile">
+        <nav>
+          <ul>
+            <li><img src="./resources/images/ic-logo.svg" alt="school logo"></li>
+            <li><a href="./campus.html" target="_blank"><img src="./resources/images/ic-on-campus.svg" alt="desk silhouette logo"></a></li>
+            <li><a href="./online.html" target="_blank"><img src="./resources/images/ic-online.svg" alt="computer logo"></a></li>
+            <li><a href="./signin.html" target="_blank"><img src="./resources/images/ic-login.svg" alt="human silhouette logo"></a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!--Banner and startbutton-->
     <div class="container">

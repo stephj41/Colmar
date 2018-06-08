@@ -89,6 +89,10 @@ nav li {
   font-size: 1.25rem;
   }
 
+  .mobile {
+      display: none;
+    }
+
 /*main banner and start section*/
 
 .Container {
@@ -194,6 +198,7 @@ button:hover {
   flex-flow: wrap row;
   justify-content: center;
   max-width: 40%;
+  min-width: 290px;
   min-height: 168px;
   padding-top: .5rem;
 }
@@ -317,6 +322,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
   width: 40%;
+  min-width: 290px;
   padding-top: .5rem;
 }
 
@@ -337,6 +343,7 @@ button:hover {
   margin-left: 8px;
   margin-right: 24px;
   color: #696969;
+  min-width: 290px;
 }
 
 /*footer section */
