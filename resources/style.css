@@ -205,12 +205,12 @@ button:hover {
 
 .info img {
   display:inline-block;
-  justify-content: flex-start;
+  justify-content: space-between;
   height: auto;
   margin: 8px;
 }
 
-.info .campus_text {
+.campus_text {
   display: inline-block;
   justify-content: flex-end;
   margin-left: 8px;
@@ -229,13 +229,6 @@ button:hover {
   padding: 24px;
   margin: 72px 72px;
   border-radius: 5px;
-}
-
-.courses_container {
-  display: inline-block;
-  justify-content: space-around;
-  padding: 24px;
-  margin: 32px 32px;
 }
 
 .title {
@@ -297,34 +290,15 @@ button:hover {
   line-height: 1rem;
 }
 
-/* Theseis Information */
-
-.thesis_container {
-  display: flex;
-  justify-content: space-around;;
-  flex-direction: row;
-  max-width: auto;
-  height: auto;
-}
-
-.title {
-  display: inline-block;
-  justify-content: center;
-  text-align: center;
-  color: #696969;
-  font-weight: bold;
-  font-size: 32px;
-}
-
 .video {
   display: inline-block;
   justify-content: flex-start;
   text-align: center;
-  padding-top: 1rem;
-  max-width: 63%;
+  max-width: 60%;
   height: auto;
   color: #696969;
   font-size: 1.5rem;
+  padding-top: 1rem;
 }
 
 .video:hover {
@@ -332,17 +306,17 @@ button:hover {
   border: 1px solid black;
 }
 
-
-embed {
-  display: inline-block;
+.embed {
+  display: block;
   width: 95%;
 }
 
 .thesis_info {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  max-width: 40%;
-  min-height: 168px;
+  width: 40%;
   padding-top: .5rem;
 }
 
@@ -352,20 +326,18 @@ embed {
 }
 
 .thesis_info img {
-  display:inline-block;
-  justify-content: flex-start;
+  display: inline-block;
   height: auto;
   margin: 8px;
 }
 
-.thesis_info .thesis_text {
+.thesis_info .campus_text {
   display: inline-block;
-  justify-content: flex-end;
+  text-align: right;
   margin-left: 8px;
-  margin-right: 8px;
+  margin-right: 24px;
   color: #696969;
 }
-
 
 /*footer section */
 
