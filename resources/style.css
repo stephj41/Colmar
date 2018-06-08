@@ -17,7 +17,7 @@ list-style-type: none;
 
 a:link {
   text-decoration: underline;;
-  color: #696969;
+  color: #A9A9A9;
   font-weight: bold;
 }
 
@@ -151,6 +151,7 @@ button {
   border-radius: 6px;
   transition: all 200ms ease-in 200ms;
 }
+
 
 button:hover {
   background-color: #FFFFF0;
