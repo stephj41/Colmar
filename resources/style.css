@@ -3,9 +3,11 @@
 html {
   line-height: 1.4;
 }
-@@import "https://fonts.googleapis.com/css?family=Merriweather"
 
-body{
+
+
+
+body {
    font-family: 'Merriweather Sans', 'Times New Roman', serif,;font-size: 16px;
    background-color: #FFF5EE;
    font-size: 18px;
@@ -154,7 +156,7 @@ button {
 
 
 button:hover {
-  background-color: #FFFFF0;
+  background-color: #FFF5EE;
   color: #696969;
 }
 
@@ -207,7 +209,6 @@ button:hover {
 .info img {
   display:inline-block;
   justify-content: flex-start;
-
   height: auto;
   margin: 8px;
 }
@@ -228,13 +229,16 @@ button:hover {
   width: auto;
   height: auto;
   background-color: #DCDCDC;
+  padding: 24px;
+  margin: 72px 72px;
+  border-radius: 5px;
 }
 
 .courses_container {
   display: inline-block;
-  justify-content: center;
+  justify-content: space-around;
   padding: 24px;
-  margin: 0px 32px 0px 32px;
+  margin: 32px 32px;
 }
 
 .title {
@@ -242,14 +246,19 @@ button:hover {
   justify-content: center;
   text-align: center;
   color: #696969;
+  font-weight: bold;
+  font-size: 32px;
 
 }
 
 .course_title {
   display: inline-block;
   justify-content: center;
-  margin: 0px 32px 0px 32px;
-  width: 30%;
+  margin: 32px 32px;
+  padding: 32px 16px;
+  width: 25%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .course_title:hover {
@@ -259,11 +268,10 @@ button:hover {
 .course_title img {
   display: inline-block;
   justify-content: center;
-  flex-flow: wrap row;
+  flex-wrap: wrap;
   width: 95%;
   height: auto;
-  margin: auto;
-  padding-top: 0.5rem
+  border-radius: 5px;
 }
 
 .course {
@@ -271,9 +279,25 @@ button:hover {
   justify-content: center;
   text-align: center;
   width: 95%;
+  height: auto;
   color: #696969;
-  background-color: white;
+  background-color: #FFF5EE;
+  border-radius: 5px;
+}
 
+.course h2 {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.course h3 {
+  font-size: 1rem;
+  line-height: .75;
+}
+
+.course p {
+  font-size: .95rem;
+  line-height: 1rem;
 }
 
 
