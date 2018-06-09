@@ -3,17 +3,28 @@
     display: none;
   }
 
+  .mobile-img {
+    display: inline-flex;
+    justify-content: flex-start;
+    height: auto;
+    width: auto;
+  }
+
 .course_container table {
-    display: flex;
+    display: block;
     justify-content: center;
     width: auto;
     height: auto;
   }
 
-  th {
+th {
     color: #696969;
     font-size: 3rem;
   }
+
+td {
+  font-size: 2rem;
+}
 
 th, td {
   padding: 10px;
@@ -86,6 +97,10 @@ tr:nth-child(odd) {
   text-align: left;
 }
 
+.mobile-img {
+  display: none;
+}
+
 .embed {
   display: none;
 }
@@ -119,7 +134,7 @@ footer .mobile-footer {
   margin-right: 50px;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1999px) {
 
 .mobile-embed {
   display: block;

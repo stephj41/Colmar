@@ -295,6 +295,10 @@ button:hover {
   line-height: 1rem;
 }
 
+.mobile-img {
+  display: none;
+}
+
 table {
   display: none;
 }
