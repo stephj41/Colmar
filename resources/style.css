@@ -12,6 +12,10 @@ body {
   background-color: #FFF5EE;
 }
 
+strong {
+  color: #696969;
+}
+
 ul li {
 list-style-type: none;
 }
