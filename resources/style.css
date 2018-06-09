@@ -230,7 +230,7 @@ button:hover {
   flex-wrap: wrap;
   width: auto;
   height: auto;
-  background-color: #DCDCDC;
+  background-color: #C0C0C0;
   padding: 24px;
   margin: 72px 72px;
   border-radius: 5px;
@@ -295,6 +295,10 @@ button:hover {
   line-height: 1rem;
 }
 
+table {
+  display: none;
+}
+
 .video {
   display: inline-block;
   justify-content: flex-start;
@@ -314,6 +318,10 @@ button:hover {
 .embed {
   display: block;
   width: 95%;
+}
+
+.mobile-embed {
+  display: none;
 }
 
 .thesis_info {
@@ -373,4 +381,8 @@ nav li {
   display: inline-block;
   padding: 1rem 1rem 1rem;
   font-size: 1.25rem;
+}
+
+.mobile-footer {
+  display: none;
 }
